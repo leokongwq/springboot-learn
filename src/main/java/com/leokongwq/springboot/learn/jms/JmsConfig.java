@@ -5,10 +5,10 @@ import org.apache.activemq.RedeliveryPolicy;
 import org.apache.activemq.pool.PooledConnectionFactory;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.context.annotation.Bean;
+import org.springframework.context.annotation.Configuration;
 import org.springframework.jms.annotation.EnableJms;
 import org.springframework.jms.config.DefaultJmsListenerContainerFactory;
 import org.springframework.jms.core.JmsTemplate;
-import org.springframework.stereotype.Component;
 
 import javax.jms.ConnectionFactory;
 import javax.jms.DeliveryMode;
@@ -20,8 +20,8 @@ import javax.jms.Session;
  */
 @EnableConfigurationProperties(MyActiveMQProperties.class)
 @EnableJms
-@Component
-public class Config {
+@Configuration
+public class JmsConfig {
 
     private static final int MAXIMUM_ACTIVE_SESSION_PER_SESSION = 200;
 

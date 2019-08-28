@@ -54,6 +54,7 @@
     </appender>
 
     <root level="INFO">
+        <appender-ref ref="CONSOLE"/>
         <appender-ref ref="ASYNC_DAILY_ROLLING_FILE"/>
         <appender-ref ref="ASYNC_ERROR_DAILY_ROLLING_FILE"/>
     </root>
