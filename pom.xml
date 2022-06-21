@@ -28,7 +28,7 @@
         <commons-lang.version>2.5</commons-lang.version>
         <commons-beanutils.version>1.9.2</commons-beanutils.version>
         <javax.mail.version>1.4.5</javax.mail.version>
-        <mysql-connector-java.version>5.1.38</mysql-connector-java.version>
+        <mysql-connector-java.version>8.0.28</mysql-connector-java.version>
         <druid.version>1.0.18</druid.version>
         <http-client.version>1.2.0-SNAPSHOT</http-client.version>
         <curator.version>2.12.0</curator.version>
